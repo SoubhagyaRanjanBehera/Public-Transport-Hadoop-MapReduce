@@ -110,7 +110,7 @@ BDA_Mini_Project/
 - Reads consecutive records for each `Route_ID` from standard input (`sys.stdin`).
 - Computes:
   - $\text{Total Trips} = \sum 1$
-  - $\text{Total Passengers} = \sum \text{Passenger\_Count}$
+  - $\sum \text{Passenger\_Count}$
   - $\text{Avg Passengers per Trip} = \frac{\text{Total Passengers}}{\text{Total Trips}}$
   - $\text{Avg Delay (min)} = \frac{\sum \text{Delay\_Min}}{\text{Total Trips}}$
 - **Emits:**  
