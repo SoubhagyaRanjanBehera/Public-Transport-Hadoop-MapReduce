@@ -109,14 +109,13 @@ BDA_Mini_Project/
 ### 3. Reducer (`src/reducer.py`)
 - Reads consecutive records for each `Route_ID` from standard input (`sys.stdin`).
 - Computes:
-  - $\text{Total Trips} = \sum 1$
-  - Total Passengers = sum(Passenger_Count)
-  - $\text{Avg Passengers per Trip} = \frac{\text{Total Passengers}}{\text{Total Trips}}$
-  - $\text{Avg Delay (min)} = \frac{\sum \text{Delay\_Min}}{\text{Total Trips}}$
+  - Total Trips = Sum of record counts ($\sum 1$)
+  - Total Passengers = Sum of `Passenger_Count`
+  - Avg Passengers per Trip = Total Passengers / Total Trips
+  - Avg Delay (min) = Sum of `Delay_Min` / Total Trips
 - **Emits:**  
   ```text
-  Route_ID <TAB> Total_Trips <TAB> Total_Passengers <TAB> Avg_Passengers_Per_Trip <TAB> Avg_Delay_Min
-  ```
+  Route_ID <TAB> Total_Trips <TAB> Total_Passengers <TAB> Avg_Passengers_Per_Trip <TAB> Avg_Delay_Min``
 
 ---
 
