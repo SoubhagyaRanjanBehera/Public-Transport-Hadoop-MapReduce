@@ -6,6 +6,14 @@
 
 ---
 
+## Dashboard Preview
+
+![Dashboard UI](assets/dashboard_screenshot.png)
+
+> **Interactive Web Dashboard:** The repository includes a complete Streamlit dashboard ([`app.py`](app.py)) powered by the MapReduce engine, featuring real-time KPI metrics, interactive Plotly visualizations, route-level delay scatter plots, and search filters.
+
+---
+
 ## 1. Project Overview & Problem Statement
 Urban public transit networks (buses, metros, trains) serve millions of daily commuters. Analyzing transit trip logs enables city planners and transit authorities to:
 1. Identify high-demand routes that experience heavy commuter crowding.
@@ -56,6 +64,9 @@ Using **Apache Hadoop** and the **MapReduce programming paradigm**, this project
 
 ```text
 BDA_Mini_Project/
+│
+├── assets/
+│   └── dashboard_screenshot.png # High-resolution dashboard UI preview
 │
 ├── data/
 │   └── transit_data.csv         # 30-row mock public transit dataset
@@ -115,7 +126,8 @@ BDA_Mini_Project/
   - Avg Delay (min) = Sum of `Delay_Min` / Total Trips
 - **Emits:**  
   ```text
-  Route_ID <TAB> Total_Trips <TAB> Total_Passengers <TAB> Avg_Passengers_Per_Trip <TAB> Avg_Delay_Min``
+  Route_ID <TAB> Total_Trips <TAB> Total_Passengers <TAB> Avg_Passengers_Per_Trip <TAB> Avg_Delay_Min
+  ```
 
 ---
 
