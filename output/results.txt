@@ -1,0 +1,6 @@
+Route_ID	Total_Trips	Total_Passengers	Avg_Passengers_Per_Trip	Avg_Delay_Min
+Route_101	6	294	49.00	3.17
+Route_102	6	547	91.17	6.33
+Route_201	6	250	41.67	9.50
+Route_202	6	402	67.00	4.00
+Route_305	6	165	27.50	2.83
